@@ -1,0 +1,49 @@
+body {
+    /* background-color: aqua; */
+    box-sizing: border-box;
+
+
+}
+.conteneur {
+    width: 960px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid green;
+}
+.col-1{width: 8.333333%;}
+.col-2{width: 16.666666%;}
+.col-3{width: 25%;}
+.col-4{width: 33.333333%;}
+.col-5{width: 41.666666%;}
+.col-6{width: 50%;}
+.col-7{width: 58.333333%;}
+.col-8{width: 66.666666%;}
+.col-9{width: 75%;}
+.col-10{width: 83.333333%;}
+.col-11{width: 91.666666%;}
+.col-12{width: 100%;}
+
+.marge-1{margin-left: 8.333333%;}
+.marge-2{margin-left: 16.66666%;}
+.marge-3{margin-left: 25%;}
+.marge-4{margin-left: 33.333333%;}
+.marge-5{margin-left: 41.666666%;}
+.marge-6{margin-left: 50%;}
+.marge-7{margin-left: 58.333333%;}
+.marge-8{margin-left: 66.666666%;}
+.marge-9{margin-left: 75%;}
+.marge-10{margin-left: 83.333333%;}
+.marge-11{margin-left: 91.666666%;}
+
+
+.bleu {background: blue;min-height: 60px;}
+.rouge {background: red;min-height: 60px;}
+.vert {background: green;min-height: 60px;}
+.jaune{background: yellow;min-height: 60px;}
+
+
