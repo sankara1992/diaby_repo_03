@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid orange;
+}
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    border: 2px solid green;
+}
+
+.col-1{width: 8.333333%;}
+.col-2{width: 16.666666%;}
+.col-3{width: 25%;}
+.col-4{width: 33.333333%;}
+.col-5{width: 41.666666%;}
+.col-6{width: 50%;}
+.col-7{width: 58.333333%;}
+.col-8{width: 66.666666%;}
+.col-9{width: 75%;}
+.col-10{width: 83.333333%;}
+.col-11{width: 91.666666%;}
+.col-12{width: 100%;}
+
+.marge-1{margin-left: 8.333333%;}
+.marge-2{margin-left: 16.66666%;}
+.marge-3{margin-left: 25%;}
+.marge-4{margin-left: 33.333333%;}
+.marge-5{margin-left: 41.666666%;}
+.marge-6{margin-left: 50%;}
+.marge-7{margin-left: 58.333333%;}
+.marge-8{margin-left: 66.666666%;}
+.marge-9{margin-left: 75%;}
+.marge-10{margin-left: 83.333333%;}
+.marge-11{margin-left: 91.666666%;}
+/* media queries, pour les écrans */
+
+
+/* téléphone, mobile ex. iphone5 */
+@media (max-width: 320px) {
+    body {
+        background: #fff;
+    }
+    .conteneur {
+        width: 100%;
+        background: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+    }
+
+    h1 {
+        /* font-size: 120px; */
+        text-align: left;
+        padding-left: 5px;
+        color: white;
+    }
+    header p {
+        color: white;
+
+        text-align: left;
+        padding-left: 5px;
+    }
+    .row {
+        border: none;
+    }
+    .col-xsm-12 {
+        width: 100%;
+    }
+    .marge-xsm {
+        margin-left: auto;
+    }
+    
+
+}
+/* petites tablettes */
+@media (min-width: 321px) and (max-width: 767px) {
+    body {
+        background: #b18b45;
+    }
+    .conteneur {
+        width: 100%;
+        background: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+    }
+    .row {
+        border: none;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+
+
+
+}
+
+/* tablettes et ordinateurs portables */
+@media (min-width: 768px) and (max-width: 1096px){
+    body {
+        background: #2E20E7;
+    }
+    .conteneur {
+        width: 100%;
+        background: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
+
+/* écran ordinateurs de bureau */
+@media (min-width: 1097px) {
+    body {
+        background: white;
+    }
+    .conteneur {
+        width: 1200px;
+        border: 1px solid #fff;
+        margin: 0 auto;
+        background: #fff;
+    }
+}
+
+
+
+/* couleurs génériques*/
+.bleu {
+    background: blue;
+    min-height: 60px;
+    color: #fff; 
+    padding: 5px;
+}
+.rouge {background: red;min-height: 60px;}
+.vert {background: green;min-height: 60px;}
+.jaune{background: yellow;min-height: 60px;}
+/* trois colonne égales cotes à cotes  */
+/* https://anglemarkos.free.fr/partage/hetic/mario.jpg  */
+
+/* pour le header et le footer  */
+
+header {
+    text-align: center;
+}
+footer {
+    padding: 10px;
+}
+
+
