@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid orange;
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    border: 2px solid green;
+}
+
+.col-1 {
+    width: 8.333333%;
+}
+.col-2 {
+    width: 16.66666%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.333333%;
+}
+.col-5 {
+    width: 41.666666%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.333333%;
+}
+.col-8 {
+    width: 66.666666%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.333333%;
+}
+.col-11 {
+    width: 91.666666%;
+}
+.col-12 {
+    width: 100%;
+}
+
+.marge-1 {
+    margin-left: 8.333333%;
+}
+.marge-2 {
+    margin-left: 16.66666%;
+}
+.marge-3 {
+    margin-left: 25%;
+}
+.marge-4 {
+    margin-left: 33.333333%;
+}
+.marge-5 {
+    margin-left: 41.666666%;
+}
+.marge-6 {
+    margin-left: 50%;
+}
+.marge-7 {
+    margin-left: 58.333333%;
+}
+.marge-8 {
+    margin-left: 66.666666%;
+}
+.marge-9 {
+    margin-left: 75%;
+}
+.marge-10 {
+    margin-left: 83.333333%;
+}
+.marge-11 {
+    margin-left: 91.666666%;
+}
+/* pour le header et le footer  */
+
+header {
+    text-align: center;
+    background: url(img/dolomites-italie.jpg) no-repeat center;
+    height: 333px;
+}
+
+footer {
+    padding: 10px;
+}
+
+/* titres */
+
+h1 {
+    color: #fff;
+    /* border-bottom: 2px solid #fff; */
+    position: relative;
+    top: 60%;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 128, .5);
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+}
+
+/* media queries, pour les écrans */
+
+/* téléphones, mobile ex. : iphone5  */
+@media (max-width: 320px) {
+
+    
+    .conteneur {
+        width: 100%;
+        background: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+    }
+
+    h1 {
+        font-size: 120%;
+        text-align: left;
+        padding-left: 5px;
+        /* color: white; */
+    }
+
+    header p {
+        /* color: white; */
+        text-align: left;
+        padding-left: 5px;
+    }
+
+    .row {
+        border: none;
+        /* display: flex; @
+        flex-direction: row;
+        flex-wrap: wrap; */
+    }
+    
+    .col-xsm-12 {
+        width: 100%;
+    }
+
+    .marge-xsm {
+        margin-left: 0;
+    }
+
+}
+
+/* petites tablettes */
+
+@media (min-width: 321px) and (max-width: 767px) {
+    
+
+    .conteneur {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        background: #fff;
+    }
+
+    .row {
+        border: none;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+}
+
+/* tablettes et ordinateurs portables, desktop */
+
+@media (min-width: 768px) and (max-width: 1096px) {
+    
+
+    .conteneur {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background: #fff;
+    }
+}
+
+/* écran ordinateurs de bureau  */
+@media (min-width: 1097px) {
+
+    
+    
+    .conteneur {
+        width: 1200px;
+        margin: 0 auto;
+        /* background: lightskyblue; */
+        border: 1px solid #fff;
+    }
+
+}
+
+/* couleurs génériques  */
+.bleu {
+    background: #5795BC;
+    min-height: 60px;
+    color: #fff;
+    padding: 5px;
+}
+.rouge {
+    background: orangered;
+    min-height: 60px;
+}
+.vert {
+    background: #77F05E;
+    min-height: 60px;
+}
+.orange {
+    background: #EBAE2A;
+    min-height: 60px;
+}
